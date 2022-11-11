@@ -1,4 +1,30 @@
-## FinAPI - API Financeira
+
+<h1 align="center">
+ API - Financeira
+</h1>
+
+
+<p align="center">
+  <a href="https://nodejs.org/en/" target="blank"><img src="https://vistaran-tech.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/05/13104926/nodejs-logo.png" width="300" alt="Node Logo" /></a>
+</p>
+
+## Installation
+
+```bash
+$ npm install
+$ yarn
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run dev or yarn dev
+
+# Listening on port
+localhost:3333/
+```
+
 
 ## REQUISITOS
 
@@ -20,4 +46,4 @@
 - [x] Não deve ser possível fazer saque em uma conta não existente
 - [x] Não deve ser possível fazer saque quando saldo for insuficiente
 - [x] Não deve ser possível excluir uma conta não existente
-- [] Não deve ser possível retornar o balanço de uma conta não existente
+- [x] Não deve ser possível retornar o balanço de uma conta não existente
